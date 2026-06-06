@@ -1,0 +1,35 @@
+.reviews {
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.reviews-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 38px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.review-cards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.review-card {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.review-card h4 {
+  margin-top: 15px;
+  color: #2563eb;
+}

@@ -1,0 +1,73 @@
+.admissions-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.admissions-page h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.admission-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admission-form input,
+.admission-form textarea {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.admission-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.admission-form button:hover {
+  background: #1d4ed8;
+}
+
+.contact-info {
+  margin-top: 50px;
+  padding: 30px;
+  background: #f8fafc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+
+.whatsapp-btn {
+  margin-top: 20px;
+  background: #25d366;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.whatsapp-btn:hover {
+  opacity: 0.9;
+}
