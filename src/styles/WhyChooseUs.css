@@ -32,3 +32,9 @@
   color: #2563eb;
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+
+  .why-cards {
+    grid-template-columns: 1fr;
+  }
+}

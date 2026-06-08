@@ -12,7 +12,9 @@ function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/admissions">Admissions</Link>
       </div>
+      
     </nav>
+    
   );
 }
 

@@ -1,7 +1,7 @@
 .hero {
   background: linear-gradient(to right, #dbeafe, #ffffff);
 
-  min-height: 60vh;
+  min-height: 45vh;
   
 
   display: flex;
@@ -16,7 +16,8 @@
 }
 
 .hero-content h1 {
-  font-size: 48px;
+  font-size: clamp(24px, 6vw, 52px);
+  line-height: 1.1;
   color: #0f172a;
   margin-bottom: 23px;
 }
@@ -51,4 +52,21 @@
 
 .hero-buttons button:hover {
   background-color: #1d4ed8;
+}
+@media (max-width: 768px) {
+
+  .hero-content h2 {
+    font-size: 22px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .hero-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 }
